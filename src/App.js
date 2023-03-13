@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './componants/Header';
 import Navigation from './componants/Navigation';
+import Homepage from './componants/Homepage';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <Navigation/>
+      <Homepage/>
         <a
           className="App-link"
           href="https://reactjs.org"

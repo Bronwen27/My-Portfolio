@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navigation() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" className="flex-column align-items-start">
         <Container>
           <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
           <Nav className="me-auto">
