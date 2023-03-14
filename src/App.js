@@ -2,6 +2,7 @@ import './App.css';
 import Header from './componants/Header';
 import Navigation from './componants/Navigation';
 import Homepage from './componants/Homepage';
+import ProjectPage from './componants/ProjectPage';
 
 function App() {
   return (
