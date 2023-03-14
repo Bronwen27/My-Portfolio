@@ -5,7 +5,7 @@ import projectData from './projectData.json';
 const Projects = () => {
   return (
     <div>
-      {projectData.map((ProjectPage) => (
+      {projectData.map((project) => (
         <ProjectPage key={project.id} project={project} />
       ))}
     </div>
