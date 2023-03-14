@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import projectData from './projectData.json';
 
-const Project = ({ project }) => {
+const ProjectPage = ({ project }) => {
   const { id, title, deployedLink, githubLink, image } = project;
 
   return (
@@ -16,4 +17,4 @@ const Project = ({ project }) => {
   );
 };
 
-export default Project;
+export default ProjectPage;

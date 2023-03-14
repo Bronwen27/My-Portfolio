@@ -9,6 +9,7 @@ function App() {
       <Header/>
       <Navigation/>
       <Homepage/>
+      <ProjectPage/>
         <a
           className="App-link"
           href="https://reactjs.org"
