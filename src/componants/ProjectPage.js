@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import projectData from './projectData.json';
+import projectData from '../projectData.json'
 
 const ProjectPage = ({ project }) => {
   const { id, title, deployedLink, githubLink, image } = project;
