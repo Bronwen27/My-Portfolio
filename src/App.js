@@ -3,9 +3,11 @@ import Header from './componants/Header';
 import Navigation from './componants/Navigation';
 import Homepage from './componants/Homepage';
 import Projects from './componants/Projects';
+import {BrowserRouter as Router} from 'react-router-dom'
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Header/>
       <Navigation/>
@@ -20,6 +22,7 @@ function App() {
           Hello World
         </a>
     </div>
+    </Router>
   );
 }
 
