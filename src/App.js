@@ -2,7 +2,7 @@ import './App.css';
 import Header from './componants/Header';
 import Navigation from './componants/Navigation';
 import Homepage from './componants/Homepage';
-import ProjectPage from './componants/ProjectPage';
+import Projects from './componants/Projects';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header/>
       <Navigation/>
       <Homepage/>
-      <ProjectPage/>
+      <Projects/>
         <a
           className="App-link"
           href="https://reactjs.org"
